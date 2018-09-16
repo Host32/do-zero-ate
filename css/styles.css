@@ -36,16 +36,23 @@ body {
 }
 
 .movie-modal .movie-cover {
-    -webkit-box-shadow: 10px 10px 31px -8px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 10px 10px 31px -8px rgba(0, 0, 0, 0.75);
-    box-shadow: 10px 10px 31px -8px rgba(0, 0, 0, 0.75);
     background: url("../img/batman-superman-cover.jpg") center center;
     background-size: cover;
-    position: absolute;
-    left: -3rem;
-    top: -7rem;
-    width: 125%;
-    height: 125%;
+    height: 500px;
+    width: 100%;
+}
+
+@media (min-width: 992px) {
+    .movie-modal .movie-cover {
+        -webkit-box-shadow: 10px 10px 31px -8px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 10px 10px 31px -8px rgba(0, 0, 0, 0.75);
+        box-shadow: 10px 10px 31px -8px rgba(0, 0, 0, 0.75);
+        position: absolute;
+        left: -3rem;
+        top: -7rem;
+        width: 125%;
+        height: 125%;
+    }
 }
 
 .movie-modal .movie-actions {

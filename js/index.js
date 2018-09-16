@@ -16,8 +16,9 @@ $(function () {
         'font-weight': 'bold',
         'font-size': '1.5rem',
         position: 'absolute',
-        left: '45%',
         top: '20%',
+        width: '4rem',
+        'text-align': 'center',
         padding: 0,
         margin: 0,
       }
