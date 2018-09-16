@@ -1,0 +1,124 @@
+body {
+    background: url("../img/background.jpg");
+    background-size: cover;
+}
+
+.text-warning {
+    color: #e6bf2c;
+}
+
+.modal-backdrop.show {
+    opacity: 0.8;
+}
+
+.movie-modal .modal-content {
+    background: transparent;
+    border: none;
+}
+
+.movie-modal .modal-header {
+    border: none;
+    color: #ffffff;
+}
+
+.movie-modal .modal-subtitle {
+    color: #c7c7c7;
+    font-weight: normal;
+}
+
+.movie-modal .modal-body {
+    background: #ffffff;
+    border-radius: 0.5rem;
+}
+
+.movie-modal .movie-cover-area {
+    position: relative;
+}
+
+.movie-modal .movie-cover {
+    -webkit-box-shadow: 10px 10px 31px -8px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 31px -8px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 31px -8px rgba(0, 0, 0, 0.75);
+    background: url("../img/batman-superman-cover.jpg") center center;
+    background-size: cover;
+    position: absolute;
+    left: -3rem;
+    top: -7rem;
+    width: 125%;
+    height: 125%;
+}
+
+.movie-modal .movie-actions {
+    position: absolute;
+    bottom: 0;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+1,000000+100&0+0,1+58,1+58 */
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.02) 1%, rgba(0, 0, 0, 1) 58%, rgba(0, 0, 0, 1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.02) 1%, rgba(0, 0, 0, 1) 58%, rgba(0, 0, 0, 1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.02) 1%, rgba(0, 0, 0, 1) 58%, rgba(0, 0, 0, 1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#000000', GradientType=0); /* IE6-9 */
+}
+
+.movie-modal .movie-actions .btn-warning {
+    background: transparent;
+    border: 2px solid #e6bf2c;
+    border-radius: 5rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+.movie-modal .movie-attributes {
+    color: #6f6f6f;
+}
+
+.movie-modal .separator {
+    border: 1px solid #eaeaea;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.movie-modal .badge-light {
+    color: #212529;
+    background-color: transparent;
+    font-size: 100%;
+    border: 2px solid #ececec;
+    font-weight: normal;
+}
+
+.movie-modal .badge-warning {
+    font-size: 100%;
+    font-weight: 500;
+    background: transparent;
+    border: 2px solid #e6bf2c;
+    color: #e6bf2c;
+}
+
+.movie-modal .movie-synopsis {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.movie-modal .movie-related-people ul {
+    list-style: none;
+    padding: 0;
+}
+
+.movie-modal .movie-synopsis,
+.movie-modal .movie-related-people {
+    font-size: 0.9rem;
+}
+
+.movie-modal .movie-statistics {
+    font-size: 0.7rem;
+}
+
+.movie-modal .movie-statistic-icon {
+    background: #d5d8de;
+    color: #fff;
+    padding: .3rem .5rem;
+    font-size: 1rem;
+}
+
+.movie-modal .movie-statistic-info {
+    color: #777777;
+}

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Do zero até...</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+          integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="container text-center">
+
+    <div class="mt-4">
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal">
+            Click to open the modal
+        </button>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade movie-modal" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="row w-100">
+                    <div class="col-4">
+
+                    </div>
+                    <div class="col-7">
+                        <div class="pl-4">
+                            <h1 class="modal-title" id="exampleModalLabel">
+                                Batman v Superman
+                            </h1>
+                            <h5 class="modal-subtitle">Dawn of Justice (2016)</h5>
+                        </div>
+                    </div>
+                    <div class="col-1">
+                        <div id="rating"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="movie-cover-area w-100 h-100">
+                            <div class="movie-cover">
+                                <div class="movie-actions w-100 text-center py-4">
+                                    <button class="btn btn-warning">
+                                        Watch Trailer
+                                    </button>
+                                    <button class="btn btn-warning">
+                                        <i class="fas fa-list"></i>
+                                    </button>
+                                    <button class="btn btn-warning">
+                                        <i class="fas fa-images"></i>
+                                    </button>
+                                    <button class="btn btn-warning">
+                                        <i class="fas fa-ellipsis-h"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-8">
+                        <div class="p-4">
+                            <div class="movie-attributes mb-4">
+                                <span class="badge badge-light">12</span>
+                                <span class="ml-2">2h 31m</span>
+                                <span class="separator"></span>
+                                <span>24 March 2016 (Brazil)</span>
+                            </div>
+                            <div class="movie-labels mb-4">
+                                <span class="badge badge-warning mr-2">Action</span>
+                                <span class="badge badge-warning mr-2">Adventure</span>
+                                <span class="badge badge-warning mr-2">Sci-Fi</span>
+                            </div>
+                            <div class="movie-synopsis py-2">
+                                <p>
+                                    Fearing that the actions of Superman are left unchecked, Batman takes on
+                                    the Man of Steel, while the world wrestles with what kind of hero it really
+                                    needs.
+                                </p>
+                            </div>
+                            <div class="movie-related-people mb-4">
+                                <ul>
+                                    <li>
+                                        <strong>Director:</strong> Zack Snyder
+                                    </li>
+                                    <li>
+                                        <strong>Writers:</strong> Chris Terrio, David S. Goyer | 4 more credits
+                                        <i class="fas fa-angle-right text-warning"></i>
+                                    </li>
+                                    <li>
+                                        <strong>Starring:</strong> Ben Affleck, Henry Cavill, Amy Adams
+                                        | See full cast & crew <i class="fas fa-angle-right text-warning"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="movie-statistics pt-4">
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="media">
+                                            <div class="mr-2 movie-statistic-icon">
+                                                44
+                                            </div>
+                                            <div class="media-body">
+                                                <div>
+                                                    <strong class="mt-0">Metascore</strong>
+                                                </div>
+                                                <div>
+                                                    <small class="movie-statistic-info">From metacritic.com</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="media">
+                                            <div class="mr-2 movie-statistic-icon">
+                                                <i class="fas fa-comment-dots"></i>
+                                            </div>
+                                            <div class="media-body">
+                                                <div>
+                                                    <strong class="mt-0">Reviews</strong>
+                                                </div>
+                                                <div>
+                                                    <small class="movie-statistic-info">2.771 users | 608 critic</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="media">
+                                            <div class="mr-2 movie-statistic-icon">
+                                                <i class="fas fa-arrow-down"></i>
+                                            </div>
+                                            <div class="media-body">
+                                                <div>
+                                                    <strong class="mt-0">Popularity</strong>
+                                                </div>
+                                                <div>
+                                                    <small class="movie-statistic-info">20 (-9)</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/progressbar.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+</html>
